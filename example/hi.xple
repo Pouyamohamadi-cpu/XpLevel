@@ -1,0 +1,21 @@
+std [onMain] [infosys]
+ma_in[
+      createMain
+      InDisplay.show("h8")
+      endMain
+]
+storio [Instr] versionofxple = getVersion[]
+createFn absd[hu] startCreation
+  storio [recall] xabs.absvalue[hu]
+endCreation
+
+createFn abab[jn] startCreation
+  storio [recall] xabs.arcSinh[jn]
+endCreation
+
+ifit [versionofxple == "1.9"] startCreation
+  InDisplay.show[absd[-7]]
+  InDisplay.show[abab[30]]
+jump startCreation
+  InDisplay.show["The version of xple compile-bs in your system is too old to run this library. plases update it by --u (the meduim request is 1.9)"]
+endCreation

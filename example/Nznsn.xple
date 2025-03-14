@@ -1,0 +1,10 @@
+ma_in[
+      createMain
+      InDisplay.show("")
+      endMain
+]
+initCls nx startCreation
+  createFn sayhito[] startCreation
+    InDisplay.show["Hello"]
+  endCreation
+endCreation

@@ -1,0 +1,11 @@
+ma_in[
+      createMain
+         InDisplay.show("Secure Operation Mode")
+      endMain
+]
+ifit ["hi" == "hi"] startCreation
+  InDisplay.show["hi"]
+jump startCreation
+  InDisplay.show["What The Fuck?"]
+endCreation
+InDisplay.show["Can't take back love that i give u"]

@@ -1,0 +1,19 @@
+std [onMain] [peep]
+ma_in[
+      createMain
+      InDisplay.show("")
+      endMain
+]
+InDisplay.show['Hello World']
+preep.importAsPeep["lib-main/infosys.xple"]
+preep.importAsPeep["/storage/emulated/0/Testscript/Nznsn.xple"]
+preep.importAsPeep["/storage/emulated/0/Testscript/Xriangle.xple"]
+createFn xplegv[] startCreation
+  storio [Instr] vers = getVersion[]
+  storio [recall] vers
+endCreation
+InDisplay.show[xplegv[]]
+nx.sayhito[]
+InDisplay.show[xtringle.sin[30]]
+preep.importAsPeep["XIO2/main_package/XIO2-min.xple"]
+xio2.pr["Hi"]

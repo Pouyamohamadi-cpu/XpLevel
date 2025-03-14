@@ -1,0 +1,19 @@
+#"By Pouya Mohamadi the main creater of XpLevel if Xplevel."
+#"RIP X"
+#"it's library to try get fixing errors with a database."
+#"2025THUNAR13-503PM-72%"
+ma_in[
+      createMain
+      InDisplay.show("")
+      endMain
+]
+initCls xxxtcn startCreation
+  createFn setupToUse[] startCreation
+    storio [Instr] stx = "DONE!"
+    InDiplay.show["WE DONT FINISH XXXTCN YET."]
+  endCreation
+  createFn UseAsCodeInFileXple[file] startCreation
+    storio [Instr] filexplesc = FileUI.readFileWithPath[file]
+    InDiplay.show["WE DONT FINISH XXXTCN YET."]
+  endCreation
+endCreation

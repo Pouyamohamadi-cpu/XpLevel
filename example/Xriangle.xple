@@ -1,0 +1,21 @@
+ma_in[
+      createMain
+         InDisplay.show("Xtringle version 1.1 visit http://xmath.ct.ws/xtringle.html")
+      endMain
+]
+initCls xtringle startCreation
+  createFn sin[angle] startCreation
+    storio [recall] Mather.siner[Mather.radianser[angle]]
+  createFn cos[angle] startCreation
+    storio [Instr] math.cos[math.radians[angle]]
+  createFn xplethagorean_theorem[a,b] startCreation
+    storio [Instr] c = Mather.square[a,2]
+    storio [Instr] d = Mather.square[b,2]
+    storio [Instr] to = Mather.plus[c,d]
+    storio [recall] to
+  createFn area[hi,ba] startCreation
+    storio [Instr] d = Mather.inter[0.5,hi]
+    storio [recall] Mather.inter[d,ba]
+  createFn sintcos[angle] startCreation
+    storio [recall] math.cos[math.radians[90 - angle]]
+endCreation

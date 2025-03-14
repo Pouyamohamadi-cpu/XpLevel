@@ -1,0 +1,20 @@
+from bs4 import BeautifulSoup
+import requests
+ma_in(
+      *st
+         InDisplay.show("")
+      rt*
+)
+@class rezer>onmake
+  @func factory?__init__(self)>onmake
+    pass
+  @func factory?fetchHTML(self, url)>onmake
+    response = requests.get(url)
+    return response.text
+  @func factory?parseHTML(self, html, element, class_name)>onmake
+    soup = BeautifulSoup(html, 'html.parser')
+    elements = soup.find_all(element, class_=class_name)
+    StrManager.InPut(elements)
+  @displayData?(self, elements)>onmake
+    for element in elements>onmake
+    @InDisplay.show(element.get_text())

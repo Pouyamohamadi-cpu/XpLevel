@@ -1,0 +1,28 @@
+@ImportManager.xple("/storage/emulated/0/XpLevel/GTIXpLevel.xple")
+ma_in(
+      *st
+         InDisplay.show("hi")
+      rt*
+)
+@ifit ? "hi" == "hi" )>onmake
+  @color.content("text","eq","red")
+@on another
+  @color.content("text","not eq","blue")
+
+@ifit ? "hi" == "hi" )>onmake
+  @color.content("text","eq","red")
+@on another
+  @color.content("text","not eq","blue")
+
+xio.pr("lets check xio version.")
+xio.v()
+@plusertest = Mather.equaler(2,4)
+xio.pr(@plusertest)
+@text = "XpLevel"
+@shift = 2
+ctexr = casi.caesar_encrypt(text, shift)
+xio.pr(ctexr)
+xio.pr("Now, time to unectypt")
+cter = casi.caesar_decrypt(ctexr, shift)
+xio.pr(cter)
+@ImportManager.xple("/storage/emulated/0/XpLevel/XIO.xple")

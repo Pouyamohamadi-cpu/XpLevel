@@ -1,0 +1,11 @@
+std [onMain] [peep]
+preep.importAsPeep["XIO2/main-package/XIO2-min.xple"]
+preep.importAsPeep["lib-main/infosys.xple"]
+preep.importAsPeep["storage/emulated/0/Testscript/xxxtcn.xple"]
+ma_in[
+      createMain
+      InDisplay.show("")
+      endMain
+]
+xxxtcn.setupToUse[]
+endCreation

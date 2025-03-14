@@ -1,0 +1,8 @@
+@ImportManager.xple("/storage/emulated/0/XpLevel/XIO.xple")
+ma_in(
+      *st
+         @InDisplay.show("An Storage Manager in XpLevel")
+      rt*
+)
+@xio.pr("If Message show,xio work")
+StorageManager.GCEnable()

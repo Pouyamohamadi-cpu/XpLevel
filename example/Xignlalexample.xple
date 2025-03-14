@@ -1,0 +1,13 @@
+#"use Xignal example"
+std [onMain] [peep]
+#"import peep"
+preep.importAsPeep["lib-main/Xignal.xple"]
+#"import Xignal with peep"
+#"A void main"
+ma_in[
+      createMain
+      InDisplay.show("")
+      endMain
+]
+#"so now we create a comment-share"
+xignal.sendNewSignalComment["main[\n     createMain\n     InDisplay.show('hi')\n     endMain\n]","1234567890"]

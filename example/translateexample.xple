@@ -1,0 +1,7 @@
+@xpleImport("GTIXpLevel.xple")
+ma_in(
+      *st
+         @InDisplay.show("run py in xple")
+      rt*
+)
+@gtxp.newText("hi","fa","en")
