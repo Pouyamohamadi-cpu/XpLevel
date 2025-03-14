@@ -8,3 +8,13 @@ we make a help guide for you to learn XpLevel visit<a href="http://learnxpl.fwh.
 
 # Note
 Don't Install XpLevel with git, it doesn't work and have errors.
+```python
+main[
+     createMain
+     InDisplay.show("")
+     endMain
+]
+InDisplay.show["🤗"]
+InDisplay.show["Helloe World!"]
+endCreation
+```
