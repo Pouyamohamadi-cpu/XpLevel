@@ -1,0 +1,33 @@
+#"main code of xignal inside library for xplevel."
+#"by pouyaMohamadi --- in github pouya-mohamadi-cpu"
+#"it must import by peep import moudle in xplevel."
+#"its have © copyright, don't share that at internet!"
+#"better use peep"
+#"work"
+#"it's send signal with edit main signal list file to all of xple program do the comment."
+#"like share-save in java but its run comments"
+#"1- a voild main"
+ma_in[
+      createMain
+      InDisplay.show("")
+      endMain
+]
+#"first, read main signal comment list file"
+storio [Instr] xignal_main_file_list = FileUI.readFileWithPath["xig-main/xignal_main_list_file_.elm"]
+#"now, will it read the main_comment lists."
+initCls xignal startCreation
+  createFn sendNewSignalComment[comment,registername] startCreation
+    #"signal_key is the file of program must get it"
+    FileUI.writeFile["xig-main/xignal_main_list_file_.elm", xignal_main_file_list+"\n"+comment]
+  endCreation
+  createFn readSignalCommentsAndDo[] startCreation
+    #"xplefilebis file then run it."
+    storio [Instr] sonic_read = FileUI.readFileWithPath["xig-main/xignal_main_list_file_.elm"]
+    #"create an shareit lib-xple to code on it"
+    FileUI.writeFile["xig-2e",sonic_read]
+    #"must import xig-2e with peep"
+  createFn clearXignalComments2e[] startCreation
+    FileUI.writeFile["xig-main/xignal_main_list_file_.elm",""]
+  endCreation
+  endCreation
+endCreation

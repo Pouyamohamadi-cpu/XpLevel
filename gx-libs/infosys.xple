@@ -1,0 +1,13 @@
+ma_in[
+      createMain
+      InDisplay.show("")
+      endMain
+]
+createFn getVersion[] startCreation
+  storio [Instr] versionreturner = FileUI.readFileFromHome['XpLevel/lib-main/version.txt']
+  storio [recall] versionreturner
+endCreation
+createFn onLibraryInstalled[] startCreation
+  storio [Instr] installedpack = FileUI.readFileFromHome['XpLevel/lib-main/package.list']
+  storio [recall] installedpack
+endCreation

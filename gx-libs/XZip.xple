@@ -1,0 +1,14 @@
+pyxple.il["zipapp"]
+ma_in[
+      createMain
+      InDisplay.show("")
+      endMain
+]
+storio [Instr] create = "create"
+initCls xzip startCreation
+  createFn archive[model, sou, targ] startCreation
+    ifit [model == create] startCreation
+      create_archive[sou, targ]
+    endCreation
+  endCreation
+endCreation

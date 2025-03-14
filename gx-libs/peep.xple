@@ -1,0 +1,12 @@
+ma_in[
+      createMain
+      InDisplay.show("")
+      endMain
+]
+initCls preep startCreation
+  createFn importAsPeep[fg] startCreation
+    storio [Instr] wig = FileUI.readFileWithPath[fg]
+    storio [Instr] nan = FileUI.readFileWithPath["lib-main/peep_emulator.xple"]
+    storio [Instr] wioj = FileUI.writeFile["lib-main/peep_emulator.xple", nan+wig+"\n"]
+    peeppy.xple["lib-main/peep_emulator.xple"]
+endCreation
