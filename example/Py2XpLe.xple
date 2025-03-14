@@ -1,9 +1,0 @@
-@pyxple.il("EmPy")
-ma_in(
-      *st
-         @InDisplay.show("")
-      rt*
-)
-@class py2xple>onmake
-  @func factory?runpy(code)>onmake
-    @empy.stf(StrManager.InPut(code))
