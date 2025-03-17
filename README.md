@@ -1,12 +1,12 @@
-```python
-main[
-     createMain
-     InDisplay.show("")
-     endMain
-]
-InDisplay.show["🤗"]
-InDisplay.show["Helloe World!"]
-endCreation
+```zig
+ma_in !void {
+     storio !void {create} : {main}
+     std.onVoidMain()
+     !end
+} !end
+InDisplay.show !void {"🤗"} !end
+InDisplay.show !void {"Helloe World!"} !end
+!xple.fi
 ```
 
 # XpLevel
