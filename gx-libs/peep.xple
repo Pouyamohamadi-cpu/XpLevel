@@ -1,12 +1,17 @@
-ma_in[
-      createMain
-      InDisplay.show("")
-      endMain
-]
-initCls preep startCreation
-  createFn importAsPeep[fg] startCreation
-    storio [Instr] wig = FileUI.readFileWithPath[fg]
-    storio [Instr] nan = FileUI.readFileWithPath["lib-main/peep_emulator.xple"]
-    storio [Instr] wioj = FileUI.writeFile["lib-main/peep_emulator.xple", nan+wig+"\n"]
-    peeppy.xple["lib-main/peep_emulator.xple"]
-endCreation
+ma_in !void {
+      storio !void {ma_in} {create}: !main
+      std.onVoidMain()
+      !end
+} !end
+storio {Instr} xplec = "lib-main/xple-color.xple"
+storio {Instr} infosys = "lib-main/infosys.xple"
+storio {Instr} std = "lib-main/std.xple"
+storio {Instr} escape = "lib-main/escape.xple"
+initCls preep void {
+  createFn importAsPeepvoid !void {fg} !end void {
+    storio {Instr} wig = FileUI.readFileWithPath !void {fg} !end
+    storio {Instr} nan = FileUI.readFileWithPath !void {"lib-main/peep_emulator.xple"} !end
+    storio {Instr} wioj = FileUI.writeFile !void {"lib-main/peep_emulator.xple", nan+wig+"\n"} !end
+    peeppy.xple !void {"lib-main/peep_emulator.xple"} !end
+    !xple.fi
+!xple.fi

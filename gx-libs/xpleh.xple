@@ -1,0 +1,17 @@
+#"xple html creater"
+#"by pouya mohamadi"
+#"https://github.com/Pouyamohamadi-cpu/XpLevel"
+ma_in[
+      createMain
+      InDisplay.show("")
+      endMain
+]
+initCls xpleH startCreation
+ createFn RealizebuildAsHTML5[] startCreation
+   storio [Instr] hu = "165"
+   FileUI.writeFile["index.html","<!DOCTYPE HTML>"]
+  endCreation
+  createFn writeAsHTML[code] startCreation
+    FileUI.writeFile["index.html",code]
+    InDisplay.show["File created. in XpLevel Main folder - index.html"]
+  endCreation

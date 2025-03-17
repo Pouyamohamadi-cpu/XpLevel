@@ -1,16 +1,16 @@
-pyxple.il["copy"]
-ma_in[
-      createMain
-      InDisplay.show("")
-      endMain
-]
-initCls escape startCreation
-  createFn cop[va] startCreation
-    storio [Instr] res = copy.copy[va]
-    storio [recall] res
-  endCreation
-  createFn deepcop[nj] startCreation
-    storio [Instr] red = copy.deepcopy[nj]
-    storio [recall] red
-  endCreation
-endCreation
+pyxple.il !void {"copy"} !end
+ma_in !void {
+      storio !void {ma_in} {create}: !main
+      std.onVoidMain()
+      !end
+} !end
+initCls escape !void {} !end void {
+  createFn cop !void {va} !end void {
+    storio {Instr} res = copy.copy !void {va} !end
+    storio {recall} res
+  !xple.fi
+  createFn deepcop !void {nj} !end void {
+    storio {Instr} red = copy.deepcopy !void {nj} !end
+    storio {recall} red
+  !xple.fi
+!xple.fi

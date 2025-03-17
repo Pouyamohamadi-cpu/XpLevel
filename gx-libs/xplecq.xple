@@ -1,0 +1,25 @@
+#"XpLevel pro color manager hs to rgb and more"
+
+#"A connection way between py and xple."
+
+#"xplecq-xple by Pouya Mohamadi."
+
+#"https://github.com/Pouyamohamadi-cpu/XpLevel"
+
+pyxple.il !void {"colorsys"} !end
+ma_in !void {
+      storio !void {ma_in} {create}: !main
+      InDisplay.show("")
+      ! end
+} !end
+initCls xplecq void {
+  createFn hlstrgb !void {j, n, m} !end void {
+    storio {recall} hls_to_rgb !void {j, n, m} !end
+  }
+  createFn hsvtrgb !void {k, c, b} !end void {
+    storio {recall} hsv_to_rgb !void {k, c, b} !end
+  }
+  createFn rgbthls !void {nm, xc, bh} !end void {
+    storio {recall} rgb_to_hls !void nm, xc, bh} !end
+  }
+}

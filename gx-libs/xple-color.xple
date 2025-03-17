@@ -1,0 +1,18 @@
+#"xple-color content code by pouya mohamadi"
+#"https://github.com/Pouyamohamadi-cpu/XpLevel"
+#"version 1.0"
+#"this main code of color content in xple"
+#"its have some connection between python and xplevel"
+
+#"a void main"
+ma_in[
+      createMain
+      InDisplay.show("")
+      endMain
+]
+initCls xplec startCreation
+  createFn cshow[nknv, color] startCreation
+    storio [Instr] cvc = colored[nknv, color]
+    InDisplay.show[cvc]
+  endCreation
+endCreation

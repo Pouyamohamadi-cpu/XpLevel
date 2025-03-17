@@ -1,13 +1,13 @@
-ma_in[
-      createMain
-      InDisplay.show("")
-      endMain
-]
-createFn getVersion[] startCreation
-  storio [Instr] versionreturner = FileUI.readFileFromHome['XpLevel/lib-main/version.txt']
-  storio [recall] versionreturner
-endCreation
-createFn onLibraryInstalled[] startCreation
-  storio [Instr] installedpack = FileUI.readFileFromHome['XpLevel/lib-main/package.list']
-  storio [recall] installedpack
-endCreation
+ma_in !void {
+      storio !void {ma_in} {create}: !main
+      std.onVoidMain()
+      !end
+} !end
+createFn getVersion !void {} !end void {
+  storio {Instr} versionreturner = FileUI.readFileFromHome !void {'XpLevel/lib-main/version.txt'} !end
+  storio {recall} versionreturner
+!xple.fi
+createFn onLibraryInstalled !void {} !end void {
+  storio {Instr} installedpack = FileUI.readFileFromHome !void {'XpLevel/lib-main/package.list'} !end
+  storio {recall} installedpack
+!xple.fi
