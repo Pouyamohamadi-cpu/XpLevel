@@ -1,6 +1,6 @@
 ```zig
 ma_in !void {
-     storio !void {create} : {main}
+     storio !void {ma_in} {create}: !main
      std.onVoidMain()
      !end
 } !end
