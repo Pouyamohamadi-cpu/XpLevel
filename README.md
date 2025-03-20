@@ -19,3 +19,6 @@ we make a help guide for you to learn XpLevel visit<a href="http://learnxpl.fwh.
 
 # Note
 Don't Install XpLevel with git, it doesn't work and have errors.
+# completely learn
+read XpLevel In Blue Sky e-book.
+the pdf file in github. in main of XpLevel GitHub.
