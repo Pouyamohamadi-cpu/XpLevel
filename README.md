@@ -1,3 +1,5 @@
+# All in One
+we use zig, bash, python, c ,c++ , D , rust, haskell, awk, odin, asm, lua to make this lang.
 ```zig
 ma_in !void {
      storio !void {ma_in} {create}: !main
