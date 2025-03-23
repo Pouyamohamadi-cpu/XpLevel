@@ -24,3 +24,6 @@ Don't Install XpLevel with git, it doesn't work and have errors.
 # completely learn
 read XpLevel In Blue Sky e-book.
 the pdf file in github. in main of XpLevel GitHub.
+# install
+is easy. just run setup.sh file. it's install it.
+setup script just support *"termux for android** and **linux system (GNU/Linux)**.
