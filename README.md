@@ -1,6 +1,6 @@
 # **All in One**
-This language integrates the best from **Zig, Bash, Python, C, C++, D, Rust, Haskell, Awk, Odin, Assembly, Lua, Brainf***.** Here's a sample in Zig:
-
+This language integrates the best from **Zig, Bash, Python, C, C++, D, Rust, Haskell, Awk, Odin, Assembly, Lua, Brainf***.** 
+Here a example in Xplevel.
 ```zig
 ma_in !void {
      storio !void {ma_in} {create}: !main
